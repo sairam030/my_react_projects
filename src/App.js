@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import birthday from "./images/birthday.png";
+import React from "react";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>React App</h1>
+      <div className="projects-grid">
+        <div className="project-card">
+          <a href="https://sairam030.github.io/birthday_remainder/">
+            <img className="project-image" src={birthday}></img>
+            <h2>Project 1</h2>
+          </a>
+        </div>
+        <div className="project-card">
+          <a href="https://sairam030.github.io/birthday_remainder/">
+            <img className="project-image" src={birthday}></img>
+            <h2>Project 1</h2>
+          </a>
+        </div>
+        <div className="project-card">
+          <a href="https://sairam030.github.io/birthday_remainder/">
+            <img className="project-image" src={birthday}></img>
+            <h2>Project 1</h2>
+          </a>
+        </div>
+        <div className="project-card">
+          <a href="https://sairam030.github.io/birthday_remainder/">
+            <img className="project-image" src={birthday}></img>
+            <h2>Project 1</h2>
+          </a>
+        </div>
+        <div className="project-card">
+          <a href="https://sairam030.github.io/birthday_remainder/">
+            <img className="project-image" src={birthday}></img>
+            <h2>Project 1</h2>
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
-
 export default App;
