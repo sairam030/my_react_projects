@@ -14,25 +14,13 @@ function App() {
           </a>
         </div>
         <div className="project-card">
-          <a href="https://sairam030.github.io/birthday_remainder/">
+          <a href="https://sairam030.github.io/tours/">
             <img className="project-image" src={birthday}></img>
             <h2>Project 1</h2>
           </a>
         </div>
         <div className="project-card">
-          <a href="https://sairam030.github.io/birthday_remainder/">
-            <img className="project-image" src={birthday}></img>
-            <h2>Project 1</h2>
-          </a>
-        </div>
-        <div className="project-card">
-          <a href="https://sairam030.github.io/birthday_remainder/">
-            <img className="project-image" src={birthday}></img>
-            <h2>Project 1</h2>
-          </a>
-        </div>
-        <div className="project-card">
-          <a href="https://sairam030.github.io/birthday_remainder/">
+          <a href="https://sairam030.github.io/reviwes/">
             <img className="project-image" src={birthday}></img>
             <h2>Project 1</h2>
           </a>
